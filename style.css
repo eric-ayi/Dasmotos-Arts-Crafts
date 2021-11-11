@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header div{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: url(./images/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+}
+
+header div, main{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/* main{
+    border: 2px solid green;
+    
+} */
+
+.intro, header div, h3, p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.intro, header div, span{
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 32px;
+    color: white; 
+}
+
+.intro-color1{
+    background-color: mediumspringgreen;
+}
+.intro-color2{
+    background-color: lightcoral;
+}
+.intro-color3{
+    background-color: skyblue;
+}
+
+.img, p{
+    margin: 20px 0 20px 0;
+}
+
+span{
+    color: blue;
+}
